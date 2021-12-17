@@ -1,2 +1,2 @@
-# PhoneGap
-PhoneGap
+# Cordova Package
+Cordova Package
