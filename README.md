@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/davidsonbpe/CordovaPackage/master/cordova_bot.png" min-width="150px" max-width="150px" width="150px" align="right" alt="">
+
 # Cordova Package
 
 [UsarComandos](#UsarComandos)
