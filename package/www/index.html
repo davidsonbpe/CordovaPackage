@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>App Novo</title>
+    <meta name="description" content="App Novo Simple!" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <link rel="icon" href="./img/logo.png" sizes="32x32" />
+    <meta name="twitter:card" content="summary" />
+
+    <style type="text/css">
+        body {
+            background-color: blueviolet;
+            background-image: url(./img/logo.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            background-attachment: fixed;
+        }
+
+        .btnDD {
+            bottom: 15px;
+            right: 15px;
+            position: fixed;
+            height: 60px;
+            width: 60px;
+            border-radius: 50px;
+            background-color: blueviolet;
+            cursor: pointer;
+            color: rgb(40, 219, 24);
+        }
+
+        .bturl {
+            text-decoration: none;
+            padding: 8px;
+            background-color: rgba(24, 23, 23, 0.295);
+            color: rgb(216, 207, 207);
+            top: 15px;
+            right: 15px;
+            position: fixed;
+        }
+
+        .addtoan {
+            bottom: 15px;
+            left: 15px;
+            position: fixed;
+        }
+    </style>
+
+    <script type="text/javascript">
+        document.addEventListener('deviceready', onDeviceReady, false);
+
+        function onDeviceReady() {
+            // Cordova is now initialized. Have fun!
+            console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <button class="btnDD" type="button" onclick="alert('Hello World! APP CordovaPackage')">APP</button>
+
+
+    <a href="https://github.com/davidsonbpe/CordovaPackage/" target="_blank" class="bturl">CordovaPackage</a>
+
+    <div class="addtoan">
+        <a href="https://www.addtoany.com/share#url=https%3A%2F%2Fgithub.com%2Fdavidsonbpe%2FCordovaPackage%2F&amp;title=CordovaPackage"
+            target="_blank"><img src="https://static.addtoany.com/buttons/a2a.svg" width="32" height="32"
+                style="background-color:royalblue"></a>
+        <a href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fgithub.com%2Fdavidsonbpe%2FCordovaPackage%2F&amp;linkname=CordovaPackage"
+            target="_blank"><img src="https://static.addtoany.com/buttons/facebook.svg" width="32" height="32"
+                style="background-color:royalblue"></a>
+        <a href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fgithub.com%2Fdavidsonbpe%2FCordovaPackage%2F&amp;linkname=CordovaPackage"
+            target="_blank"><img src="https://static.addtoany.com/buttons/twitter.svg" width="32" height="32"
+                style="background-color:royalblue"></a>
+        <a href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fgithub.com%2Fdavidsonbpe%2FCordovaPackage%2F&amp;linkname=CordovaPackage"
+            target="_blank"><img src="https://static.addtoany.com/buttons/email.svg" width="32" height="32"
+                style="background-color:royalblue"></a>
+    </div>
+
+
+
+
+</body>
+
+</html>
