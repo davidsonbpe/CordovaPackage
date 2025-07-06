@@ -7,7 +7,7 @@
 
 Clona o repositorio abaixo...
 ```bash
-git clone -b VoltBuilder --single-branch https://github.com/davidsonbpe/CordovaPackage.git
+git clone -b VoltBuilder-1.5 --single-branch https://github.com/davidsonbpe/CordovaPackage.git
 
 ```
 
