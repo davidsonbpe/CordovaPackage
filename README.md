@@ -1,21 +1,71 @@
-<img src="https://raw.githubusercontent.com/davidsonbpe/CordovaPackage/master/cordova_bot.png" min-width="150px" max-width="150px" width="150px" align="right" alt="">
+<img src="https://capacitorjs.com/android-icon-192x192.png" min-width="150px" max-width="150px" width="150px" align="right" alt="">
 
-# Cordova Package
+# Capacitor.js Package
 
 [UsarComandos](#UsarComandos)
 ----------
 
 Clona o repositorio abaixo...
-```bash
-git clone -b VoltBuilder-1.5 --single-branch https://github.com/davidsonbpe/CordovaPackage.git
 
+```bash
+git clone -b capacitorjs --single-branch https://github.com/davidsonbpe/CordovaPackage.git
 ```
 
 Abra a pasta do repositorio abaixo...
 ```bash
 cd CordovaPackage
-
 ```
+
+Execute este comando para instalar o Capacitor:
+
+```bash
+npm install @capacitor/core @capacitor/cli
+```
+
+Agora, inicialize o Capacitor no seu projeto:
+
+```bash
+npx cap init
+```
+
+Você precisará informar o nome do app e o ID do pacote, como `com.exemplo.app`.
+
+Com o Capacitor configurado, adicione as plataformas desejadas. Por exemplo, para Android:
+
+```bash
+npx cap add android
+```
+
+Ou para iOS:
+
+```bash
+npx cap add ios
+```
+
+Depois de construir sua aplicação web, copie os arquivos para o Capacitor:
+
+```bash
+npx cap copy
+```
+
+E pronto! Agora, abra o projeto nativo com:
+
+```bash
+npx cap open android
+```
+
+Ou `ios`. Execute no emulador ou dispositivo físico.
+
+---
+
+
+----------
+CAPACITOR.JS
+https://capacitorjs.com/
+
+-------
+
+
 ----------
 VoltBuilder
 https://volt.build/upload/
