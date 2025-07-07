@@ -58,15 +58,11 @@ Ou `ios`. Execute no emulador ou dispositivo físico.
 
 ---
 
-
-----------
 CAPACITOR.JS
 https://capacitorjs.com/
 
 -------
 
-
-----------
 VoltBuilder
 https://volt.build/upload/
 
