@@ -1,4 +1,4 @@
-<img src="https://capacitorjs.com/android-icon-192x192.png" min-width="150px" max-width="150px" width="150px" align="right" alt="">
+<img src="https://raw.githubusercontent.com/davidsonbpe/CordovaPackage/refs/heads/capacitorjs/package/www/img/android-icon-192x192.png" min-width="150px" max-width="150px" width="150px" align="right" alt="">
 
 # Capacitor.js Package
 
